@@ -1,0 +1,9 @@
+*.idea/*
+*.venv/*
+*node_modules/*
+*.claude/
+*.pytest_cache/
+*.vscode/
+*.DS_Store
+*dist/
+*.env
