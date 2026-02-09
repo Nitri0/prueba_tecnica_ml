@@ -1,0 +1,7 @@
+id,name,image_url,type,max_installments
+mercadopago,Mercado Pago,https://http2.mlstatic.com/storage/logos-api-admin/f3e8e940-f549-11ef-bad6-e9962bcd76e5-xl.svg,cash,12
+amex,American Express,https://images.icon-icons.com/2341/PNG/512/amex_payment_method_card_icon_142744.png,credit,12
+visa,Visa,https://images.icon-icons.com/2342/PNG/512/visa_payment_method_card_icon_142746.png,credit,12
+mastercard,Mastercard,https://images.icon-icons.com/2342/PNG/512/mastercard_payment_method_icon_142750.png,credit,12
+visa-debit,Visa Débito,https://images.icon-icons.com/2342/PNG/512/visa_payment_method_card_icon_142746.png,debit,12
+mastercard-debit,Mastercard Débito,https://images.icon-icons.com/2342/PNG/512/mastercard_payment_method_icon_142750.png,debit,12

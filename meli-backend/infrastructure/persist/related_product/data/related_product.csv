@@ -1,0 +1,55 @@
+product_id,id,title,price,original_price,image,discount,installments,installment_amount,is_free_shipping,is_first_purchase_free_shipping
+MLC621083881,RP001,iPhone 15 Pro 256GB,1199990,,https://http2.mlstatic.com/D_NQ_NP_2X_863735-MLA71782896219_092023-F.webp,,12,99999,true,true
+MLC621083881,RP002,iPhone 14 Pro Max 256GB,999990,1199990,https://http2.mlstatic.com/D_NQ_NP_2X_693037-MLA71782896221_092023-F.webp,17,12,83332,true,true
+MLC621083881,RP003,Samsung Galaxy S24 Ultra 256GB Titanium Gray,1299990,1499990,https://http2.mlstatic.com/D_NQ_NP_2X_747453-MLA71782896229_092023-F.webp,13,12,108332,true,true
+MLC621083881,RP004,Samsung Galaxy S24+ 512GB,1099990,1299990,https://http2.mlstatic.com/D_NQ_NP_2X_824829-MLA69459850594_052023-F.webp,15,12,91665,true,true
+MLC621083881,RP005,Google Pixel 8 Pro 256GB,949990,1099990,https://http2.mlstatic.com/D_NQ_NP_2X_786692-MLA71782896227_092023-F.webp,14,12,79165,true,true
+MLC621083881,RP006,AirPods Pro (2da generación) con estuche MagSafe,249990,,https://http2.mlstatic.com/D_NQ_NP_2X_895547-MLA69735768157_062023-F.webp,,12,20832,true,true
+MLC677194340,RP001,iPhone 15 Pro 256GB,1199990,,https://http2.mlstatic.com/D_NQ_NP_2X_863735-MLA71782896219_092023-F.webp,,12,99999,true,true
+MLC677194340,RP002,iPhone 14 Pro Max 256GB,999990,1199990,https://http2.mlstatic.com/D_NQ_NP_2X_693037-MLA71782896221_092023-F.webp,17,12,83332,true,true
+MLC677194340,RP003,Samsung Galaxy S24 Ultra 256GB Titanium Gray,1299990,1499990,https://http2.mlstatic.com/D_NQ_NP_2X_747453-MLA71782896229_092023-F.webp,13,12,108332,true,true
+MLC677194340,RP004,Samsung Galaxy S24+ 512GB,1099990,1299990,https://http2.mlstatic.com/D_NQ_NP_2X_824829-MLA69459850594_052023-F.webp,15,12,91665,true,true
+MLC677194340,RP005,Google Pixel 8 Pro 256GB,949990,1099990,https://http2.mlstatic.com/D_NQ_NP_2X_786692-MLA71782896227_092023-F.webp,14,12,79165,true,true
+MLC677194340,RP006,AirPods Pro (2da generación) con estuche MagSafe,249990,,https://http2.mlstatic.com/D_NQ_NP_2X_895547-MLA69735768157_062023-F.webp,,12,20832,true,true
+MLC204267746,RP001,iPhone 15 Pro 256GB,1199990,,https://http2.mlstatic.com/D_NQ_NP_2X_863735-MLA71782896219_092023-F.webp,,12,99999,true,true
+MLC204267746,RP002,iPhone 14 Pro Max 256GB,999990,1199990,https://http2.mlstatic.com/D_NQ_NP_2X_693037-MLA71782896221_092023-F.webp,17,12,83332,true,true
+MLC204267746,RP003,Samsung Galaxy S24 Ultra 256GB Titanium Gray,1299990,1499990,https://http2.mlstatic.com/D_NQ_NP_2X_747453-MLA71782896229_092023-F.webp,13,12,108332,true,true
+MLC204267746,RP004,Samsung Galaxy S24+ 512GB,1099990,1299990,https://http2.mlstatic.com/D_NQ_NP_2X_824829-MLA69459850594_052023-F.webp,15,12,91665,true,true
+MLC204267746,RP005,Google Pixel 8 Pro 256GB,949990,1099990,https://http2.mlstatic.com/D_NQ_NP_2X_786692-MLA71782896227_092023-F.webp,14,12,79165,true,true
+MLC204267746,RP006,AirPods Pro (2da generación) con estuche MagSafe,249990,,https://http2.mlstatic.com/D_NQ_NP_2X_895547-MLA69735768157_062023-F.webp,,12,20832,true,true
+MLC928744140,RP001,iPhone 15 Pro 256GB,1199990,,https://http2.mlstatic.com/D_NQ_NP_2X_863735-MLA71782896219_092023-F.webp,,12,99999,true,true
+MLC928744140,RP002,iPhone 14 Pro Max 256GB,999990,1199990,https://http2.mlstatic.com/D_NQ_NP_2X_693037-MLA71782896221_092023-F.webp,17,12,83332,true,true
+MLC928744140,RP003,Samsung Galaxy S24 Ultra 256GB Titanium Gray,1299990,1499990,https://http2.mlstatic.com/D_NQ_NP_2X_747453-MLA71782896229_092023-F.webp,13,12,108332,true,true
+MLC928744140,RP004,Samsung Galaxy S24+ 512GB,1099990,1299990,https://http2.mlstatic.com/D_NQ_NP_2X_824829-MLA69459850594_052023-F.webp,15,12,91665,true,true
+MLC928744140,RP005,Google Pixel 8 Pro 256GB,949990,1099990,https://http2.mlstatic.com/D_NQ_NP_2X_786692-MLA71782896227_092023-F.webp,14,12,79165,true,true
+MLC928744140,RP006,AirPods Pro (2da generación) con estuche MagSafe,249990,,https://http2.mlstatic.com/D_NQ_NP_2X_895547-MLA69735768157_062023-F.webp,,12,20832,true,true
+MLC137702355,RP001,iPhone 15 Pro 256GB,1199990,,https://http2.mlstatic.com/D_NQ_NP_2X_863735-MLA71782896219_092023-F.webp,,12,99999,true,true
+MLC137702355,RP002,iPhone 14 Pro Max 256GB,999990,1199990,https://http2.mlstatic.com/D_NQ_NP_2X_693037-MLA71782896221_092023-F.webp,17,12,83332,true,true
+MLC137702355,RP003,Samsung Galaxy S24 Ultra 256GB Titanium Gray,1299990,1499990,https://http2.mlstatic.com/D_NQ_NP_2X_747453-MLA71782896229_092023-F.webp,13,12,108332,true,true
+MLC137702355,RP004,Samsung Galaxy S24+ 512GB,1099990,1299990,https://http2.mlstatic.com/D_NQ_NP_2X_824829-MLA69459850594_052023-F.webp,15,12,91665,true,true
+MLC137702355,RP005,Google Pixel 8 Pro 256GB,949990,1099990,https://http2.mlstatic.com/D_NQ_NP_2X_786692-MLA71782896227_092023-F.webp,14,12,79165,true,true
+MLC137702355,RP006,AirPods Pro (2da generación) con estuche MagSafe,249990,,https://http2.mlstatic.com/D_NQ_NP_2X_895547-MLA69735768157_062023-F.webp,,12,20832,true,true
+MLC474475489,RP001,iPhone 15 Pro 256GB,1199990,,https://http2.mlstatic.com/D_NQ_NP_2X_863735-MLA71782896219_092023-F.webp,,12,99999,true,true
+MLC474475489,RP002,iPhone 14 Pro Max 256GB,999990,1199990,https://http2.mlstatic.com/D_NQ_NP_2X_693037-MLA71782896221_092023-F.webp,17,12,83332,true,true
+MLC474475489,RP003,Samsung Galaxy S24 Ultra 256GB Titanium Gray,1299990,1499990,https://http2.mlstatic.com/D_NQ_NP_2X_747453-MLA71782896229_092023-F.webp,13,12,108332,true,true
+MLC474475489,RP004,Samsung Galaxy S24+ 512GB,1099990,1299990,https://http2.mlstatic.com/D_NQ_NP_2X_824829-MLA69459850594_052023-F.webp,15,12,91665,true,true
+MLC474475489,RP005,Google Pixel 8 Pro 256GB,949990,1099990,https://http2.mlstatic.com/D_NQ_NP_2X_786692-MLA71782896227_092023-F.webp,14,12,79165,true,true
+MLC474475489,RP006,AirPods Pro (2da generación) con estuche MagSafe,249990,,https://http2.mlstatic.com/D_NQ_NP_2X_895547-MLA69735768157_062023-F.webp,,12,20832,true,true
+MLC473630929,RP001,iPhone 15 Pro 256GB,1199990,,https://http2.mlstatic.com/D_NQ_NP_2X_863735-MLA71782896219_092023-F.webp,,12,99999,true,true
+MLC473630929,RP002,iPhone 14 Pro Max 256GB,999990,1199990,https://http2.mlstatic.com/D_NQ_NP_2X_693037-MLA71782896221_092023-F.webp,17,12,83332,true,true
+MLC473630929,RP003,Samsung Galaxy S24 Ultra 256GB Titanium Gray,1299990,1499990,https://http2.mlstatic.com/D_NQ_NP_2X_747453-MLA71782896229_092023-F.webp,13,12,108332,true,true
+MLC473630929,RP004,Samsung Galaxy S24+ 512GB,1099990,1299990,https://http2.mlstatic.com/D_NQ_NP_2X_824829-MLA69459850594_052023-F.webp,15,12,91665,true,true
+MLC473630929,RP005,Google Pixel 8 Pro 256GB,949990,1099990,https://http2.mlstatic.com/D_NQ_NP_2X_786692-MLA71782896227_092023-F.webp,14,12,79165,true,true
+MLC473630929,RP006,AirPods Pro (2da generación) con estuche MagSafe,249990,,https://http2.mlstatic.com/D_NQ_NP_2X_895547-MLA69735768157_062023-F.webp,,12,20832,true,true
+MLC403211283,RP001,iPhone 15 Pro 256GB,1199990,,https://http2.mlstatic.com/D_NQ_NP_2X_863735-MLA71782896219_092023-F.webp,,12,99999,true,true
+MLC403211283,RP002,iPhone 14 Pro Max 256GB,999990,1199990,https://http2.mlstatic.com/D_NQ_NP_2X_693037-MLA71782896221_092023-F.webp,17,12,83332,true,true
+MLC403211283,RP003,Samsung Galaxy S24 Ultra 256GB Titanium Gray,1299990,1499990,https://http2.mlstatic.com/D_NQ_NP_2X_747453-MLA71782896229_092023-F.webp,13,12,108332,true,true
+MLC403211283,RP004,Samsung Galaxy S24+ 512GB,1099990,1299990,https://http2.mlstatic.com/D_NQ_NP_2X_824829-MLA69459850594_052023-F.webp,15,12,91665,true,true
+MLC403211283,RP005,Google Pixel 8 Pro 256GB,949990,1099990,https://http2.mlstatic.com/D_NQ_NP_2X_786692-MLA71782896227_092023-F.webp,14,12,79165,true,true
+MLC403211283,RP006,AirPods Pro (2da generación) con estuche MagSafe,249990,,https://http2.mlstatic.com/D_NQ_NP_2X_895547-MLA69735768157_062023-F.webp,,12,20832,true,true
+MLC882941432,RP001,iPhone 15 Pro 256GB,1199990,,https://http2.mlstatic.com/D_NQ_NP_2X_863735-MLA71782896219_092023-F.webp,,12,99999,true,true
+MLC882941432,RP002,iPhone 14 Pro Max 256GB,999990,1199990,https://http2.mlstatic.com/D_NQ_NP_2X_693037-MLA71782896221_092023-F.webp,17,12,83332,true,true
+MLC882941432,RP003,Samsung Galaxy S24 Ultra 256GB Titanium Gray,1299990,1499990,https://http2.mlstatic.com/D_NQ_NP_2X_747453-MLA71782896229_092023-F.webp,13,12,108332,true,true
+MLC882941432,RP004,Samsung Galaxy S24+ 512GB,1099990,1299990,https://http2.mlstatic.com/D_NQ_NP_2X_824829-MLA69459850594_052023-F.webp,15,12,91665,true,true
+MLC882941432,RP005,Google Pixel 8 Pro 256GB,949990,1099990,https://http2.mlstatic.com/D_NQ_NP_2X_786692-MLA71782896227_092023-F.webp,14,12,79165,true,true
+MLC882941432,RP006,AirPods Pro (2da generación) con estuche MagSafe,249990,,https://http2.mlstatic.com/D_NQ_NP_2X_895547-MLA69735768157_062023-F.webp,,12,20832,true,true

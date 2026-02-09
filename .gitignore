@@ -1,8 +1,31 @@
-*.idea/*
-*.venv/*
-*node_modules/*
-*.claude/
-*.pytest_cache/
-*.vscode/
-*.DS_Store
-*dist/
+# IDEs
+.idea/
+.vscode/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+ENV/
+env/
+.coverage
+.pytest_cache/
+htmlcov/
+.tox/
+.hypothesis/
+
+# Node
+node_modules/
+dist/
+
+# OS
+.DS_Store
+.claude/
+
+# Build
+*.egg-info/
+build/

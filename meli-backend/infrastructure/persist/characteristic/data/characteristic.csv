@@ -1,0 +1,100 @@
+product_id,type,name,value,current,min,max,min_label,max_label,icon,segments,category_name,characteristics_json
+MLC621083881,range,Tamaño de la pantalla,"6.7""",6.7,4,8,PEQUEÑO,GRANDE,Smartphone,,,
+MLC621083881,highlight,Memoria interna,128 GB,,,,,,HardDrive,,,
+MLC621083881,highlight,Cámara trasera principal,48 Mpx,,,,,,Camera,,,
+MLC621083881,category,Características generales,,,,,,,,,Características generales,"[{""name"":""Marca"",""value"":""Apple""},{""name"":""Línea"",""value"":""iPhone""},{""name"":""Modelo"",""value"":""iPhone 15 Pro Max""},{""name"":""Color"",""value"":""Titanio Azul""}]"
+MLC621083881,category,Pantalla,,,,,,,,,Pantalla,"[{""name"":""Tamaño de pantalla"",""value"":""6.7\""""},{""name"":""Resolución"",""value"":""2796 x 1290 px""},{""name"":""Tipo de pantalla"",""value"":""Super Retina XDR""}]"
+MLC621083881,category,Sistema operativo,,,,,,,,,Sistema operativo,"[{""name"":""Nombre del sistema operativo"",""value"":""iOS 17""}]"
+MLC621083881,category,Memoria,,,,,,,,,Memoria,"[{""name"":""Memoria interna"",""value"":""128 GB""},{""name"":""Memoria RAM"",""value"":""8 GB""}]"
+MLC621083881,category,Cámara,,,,,,,,,Cámara,"[{""name"":""Cámara trasera"",""value"":""Triple 48 MP + 12 MP + 12 MP""},{""name"":""Cámara frontal"",""value"":""12 MP""}]"
+MLC621083881,category,Procesador,,,,,,,,,Procesador,"[{""name"":""Modelo del procesador"",""value"":""A17 Pro""},{""name"":""Cantidad de núcleos"",""value"":""6""}]"
+MLC621083881,category,Batería,,,,,,,,,Batería,"[{""name"":""Capacidad de batería"",""value"":""4422 mAh""}]"
+MLC621083881,category,Dimensiones y peso,,,,,,,,,Dimensiones y peso,"[{""name"":""Peso"",""value"":""221 g""},{""name"":""Alto"",""value"":""159.9 mm""},{""name"":""Ancho"",""value"":""76.7 mm""},{""name"":""Profundidad"",""value"":""8.25 mm""}]"
+MLC677194340,range,Tamaño de la pantalla,"6.7""",6.7,4,8,PEQUEÑO,GRANDE,Smartphone,,,
+MLC677194340,highlight,Memoria interna,128 GB,,,,,,HardDrive,,,
+MLC677194340,highlight,Cámara trasera principal,48 Mpx,,,,,,Camera,,,
+MLC677194340,category,Características generales,,,,,,,,,Características generales,"[{""name"":""Marca"",""value"":""Apple""},{""name"":""Línea"",""value"":""iPhone""},{""name"":""Modelo"",""value"":""iPhone 15 Pro Max""},{""name"":""Color"",""value"":""Titanio Natural""}]"
+MLC677194340,category,Pantalla,,,,,,,,,Pantalla,"[{""name"":""Tamaño de pantalla"",""value"":""6.7\""""},{""name"":""Resolución"",""value"":""2796 x 1290 px""},{""name"":""Tipo de pantalla"",""value"":""Super Retina XDR""}]"
+MLC677194340,category,Sistema operativo,,,,,,,,,Sistema operativo,"[{""name"":""Nombre del sistema operativo"",""value"":""iOS 17""}]"
+MLC677194340,category,Memoria,,,,,,,,,Memoria,"[{""name"":""Memoria interna"",""value"":""128 GB""},{""name"":""Memoria RAM"",""value"":""8 GB""}]"
+MLC677194340,category,Cámara,,,,,,,,,Cámara,"[{""name"":""Cámara trasera"",""value"":""Triple 48 MP + 12 MP + 12 MP""},{""name"":""Cámara frontal"",""value"":""12 MP""}]"
+MLC677194340,category,Procesador,,,,,,,,,Procesador,"[{""name"":""Modelo del procesador"",""value"":""A17 Pro""},{""name"":""Cantidad de núcleos"",""value"":""6""}]"
+MLC677194340,category,Batería,,,,,,,,,Batería,"[{""name"":""Capacidad de batería"",""value"":""4422 mAh""}]"
+MLC677194340,category,Dimensiones y peso,,,,,,,,,Dimensiones y peso,"[{""name"":""Peso"",""value"":""221 g""},{""name"":""Alto"",""value"":""159.9 mm""},{""name"":""Ancho"",""value"":""76.7 mm""},{""name"":""Profundidad"",""value"":""8.25 mm""}]"
+MLC204267746,range,Tamaño de la pantalla,"6.7""",6.7,4,8,PEQUEÑO,GRANDE,Smartphone,,,
+MLC204267746,highlight,Memoria interna,128 GB,,,,,,HardDrive,,,
+MLC204267746,highlight,Cámara trasera principal,48 Mpx,,,,,,Camera,,,
+MLC204267746,category,Características generales,,,,,,,,,Características generales,"[{""name"":""Marca"",""value"":""Apple""},{""name"":""Línea"",""value"":""iPhone""},{""name"":""Modelo"",""value"":""iPhone 15 Pro Max""},{""name"":""Color"",""value"":""Titanio Negro""}]"
+MLC204267746,category,Pantalla,,,,,,,,,Pantalla,"[{""name"":""Tamaño de pantalla"",""value"":""6.7\""""},{""name"":""Resolución"",""value"":""2796 x 1290 px""},{""name"":""Tipo de pantalla"",""value"":""Super Retina XDR""}]"
+MLC204267746,category,Sistema operativo,,,,,,,,,Sistema operativo,"[{""name"":""Nombre del sistema operativo"",""value"":""iOS 17""}]"
+MLC204267746,category,Memoria,,,,,,,,,Memoria,"[{""name"":""Memoria interna"",""value"":""128 GB""},{""name"":""Memoria RAM"",""value"":""8 GB""}]"
+MLC204267746,category,Cámara,,,,,,,,,Cámara,"[{""name"":""Cámara trasera"",""value"":""Triple 48 MP + 12 MP + 12 MP""},{""name"":""Cámara frontal"",""value"":""12 MP""}]"
+MLC204267746,category,Procesador,,,,,,,,,Procesador,"[{""name"":""Modelo del procesador"",""value"":""A17 Pro""},{""name"":""Cantidad de núcleos"",""value"":""6""}]"
+MLC204267746,category,Batería,,,,,,,,,Batería,"[{""name"":""Capacidad de batería"",""value"":""4422 mAh""}]"
+MLC204267746,category,Dimensiones y peso,,,,,,,,,Dimensiones y peso,"[{""name"":""Peso"",""value"":""221 g""},{""name"":""Alto"",""value"":""159.9 mm""},{""name"":""Ancho"",""value"":""76.7 mm""},{""name"":""Profundidad"",""value"":""8.25 mm""}]"
+MLC928744140,range,Tamaño de la pantalla,"6.7""",6.7,4,8,PEQUEÑO,GRANDE,Smartphone,,,
+MLC928744140,highlight,Memoria interna,256 GB,,,,,,HardDrive,,,
+MLC928744140,highlight,Cámara trasera principal,48 Mpx,,,,,,Camera,,,
+MLC928744140,category,Características generales,,,,,,,,,Características generales,"[{""name"":""Marca"",""value"":""Apple""},{""name"":""Línea"",""value"":""iPhone""},{""name"":""Modelo"",""value"":""iPhone 15 Pro Max""},{""name"":""Color"",""value"":""Titanio Azul""}]"
+MLC928744140,category,Pantalla,,,,,,,,,Pantalla,"[{""name"":""Tamaño de pantalla"",""value"":""6.7\""""},{""name"":""Resolución"",""value"":""2796 x 1290 px""},{""name"":""Tipo de pantalla"",""value"":""Super Retina XDR""}]"
+MLC928744140,category,Sistema operativo,,,,,,,,,Sistema operativo,"[{""name"":""Nombre del sistema operativo"",""value"":""iOS 17""}]"
+MLC928744140,category,Memoria,,,,,,,,,Memoria,"[{""name"":""Memoria interna"",""value"":""256 GB""},{""name"":""Memoria RAM"",""value"":""8 GB""}]"
+MLC928744140,category,Cámara,,,,,,,,,Cámara,"[{""name"":""Cámara trasera"",""value"":""Triple 48 MP + 12 MP + 12 MP""},{""name"":""Cámara frontal"",""value"":""12 MP""}]"
+MLC928744140,category,Procesador,,,,,,,,,Procesador,"[{""name"":""Modelo del procesador"",""value"":""A17 Pro""},{""name"":""Cantidad de núcleos"",""value"":""6""}]"
+MLC928744140,category,Batería,,,,,,,,,Batería,"[{""name"":""Capacidad de batería"",""value"":""4422 mAh""}]"
+MLC928744140,category,Dimensiones y peso,,,,,,,,,Dimensiones y peso,"[{""name"":""Peso"",""value"":""221 g""},{""name"":""Alto"",""value"":""159.9 mm""},{""name"":""Ancho"",""value"":""76.7 mm""},{""name"":""Profundidad"",""value"":""8.25 mm""}]"
+MLC137702355,range,Tamaño de la pantalla,"6.7""",6.7,4,8,PEQUEÑO,GRANDE,Smartphone,,,
+MLC137702355,highlight,Memoria interna,256 GB,,,,,,HardDrive,,,
+MLC137702355,highlight,Cámara trasera principal,48 Mpx,,,,,,Camera,,,
+MLC137702355,category,Características generales,,,,,,,,,Características generales,"[{""name"":""Marca"",""value"":""Apple""},{""name"":""Línea"",""value"":""iPhone""},{""name"":""Modelo"",""value"":""iPhone 15 Pro Max""},{""name"":""Color"",""value"":""Titanio Natural""}]"
+MLC137702355,category,Pantalla,,,,,,,,,Pantalla,"[{""name"":""Tamaño de pantalla"",""value"":""6.7\""""},{""name"":""Resolución"",""value"":""2796 x 1290 px""},{""name"":""Tipo de pantalla"",""value"":""Super Retina XDR""}]"
+MLC137702355,category,Sistema operativo,,,,,,,,,Sistema operativo,"[{""name"":""Nombre del sistema operativo"",""value"":""iOS 17""}]"
+MLC137702355,category,Memoria,,,,,,,,,Memoria,"[{""name"":""Memoria interna"",""value"":""256 GB""},{""name"":""Memoria RAM"",""value"":""8 GB""}]"
+MLC137702355,category,Cámara,,,,,,,,,Cámara,"[{""name"":""Cámara trasera"",""value"":""Triple 48 MP + 12 MP + 12 MP""},{""name"":""Cámara frontal"",""value"":""12 MP""}]"
+MLC137702355,category,Procesador,,,,,,,,,Procesador,"[{""name"":""Modelo del procesador"",""value"":""A17 Pro""},{""name"":""Cantidad de núcleos"",""value"":""6""}]"
+MLC137702355,category,Batería,,,,,,,,,Batería,"[{""name"":""Capacidad de batería"",""value"":""4422 mAh""}]"
+MLC137702355,category,Dimensiones y peso,,,,,,,,,Dimensiones y peso,"[{""name"":""Peso"",""value"":""221 g""},{""name"":""Alto"",""value"":""159.9 mm""},{""name"":""Ancho"",""value"":""76.7 mm""},{""name"":""Profundidad"",""value"":""8.25 mm""}]"
+MLC474475489,range,Tamaño de la pantalla,"6.7""",6.7,4,8,PEQUEÑO,GRANDE,Smartphone,,,
+MLC474475489,highlight,Memoria interna,256 GB,,,,,,HardDrive,,,
+MLC474475489,highlight,Cámara trasera principal,48 Mpx,,,,,,Camera,,,
+MLC474475489,category,Características generales,,,,,,,,,Características generales,"[{""name"":""Marca"",""value"":""Apple""},{""name"":""Línea"",""value"":""iPhone""},{""name"":""Modelo"",""value"":""iPhone 15 Pro Max""},{""name"":""Color"",""value"":""Titanio Negro""}]"
+MLC474475489,category,Pantalla,,,,,,,,,Pantalla,"[{""name"":""Tamaño de pantalla"",""value"":""6.7\""""},{""name"":""Resolución"",""value"":""2796 x 1290 px""},{""name"":""Tipo de pantalla"",""value"":""Super Retina XDR""}]"
+MLC474475489,category,Sistema operativo,,,,,,,,,Sistema operativo,"[{""name"":""Nombre del sistema operativo"",""value"":""iOS 17""}]"
+MLC474475489,category,Memoria,,,,,,,,,Memoria,"[{""name"":""Memoria interna"",""value"":""256 GB""},{""name"":""Memoria RAM"",""value"":""8 GB""}]"
+MLC474475489,category,Cámara,,,,,,,,,Cámara,"[{""name"":""Cámara trasera"",""value"":""Triple 48 MP + 12 MP + 12 MP""},{""name"":""Cámara frontal"",""value"":""12 MP""}]"
+MLC474475489,category,Procesador,,,,,,,,,Procesador,"[{""name"":""Modelo del procesador"",""value"":""A17 Pro""},{""name"":""Cantidad de núcleos"",""value"":""6""}]"
+MLC474475489,category,Batería,,,,,,,,,Batería,"[{""name"":""Capacidad de batería"",""value"":""4422 mAh""}]"
+MLC474475489,category,Dimensiones y peso,,,,,,,,,Dimensiones y peso,"[{""name"":""Peso"",""value"":""221 g""},{""name"":""Alto"",""value"":""159.9 mm""},{""name"":""Ancho"",""value"":""76.7 mm""},{""name"":""Profundidad"",""value"":""8.25 mm""}]"
+MLC473630929,range,Tamaño de la pantalla,"6.7""",6.7,4,8,PEQUEÑO,GRANDE,Smartphone,,,
+MLC473630929,highlight,Memoria interna,512 GB,,,,,,HardDrive,,,
+MLC473630929,highlight,Cámara trasera principal,48 Mpx,,,,,,Camera,,,
+MLC473630929,category,Características generales,,,,,,,,,Características generales,"[{""name"":""Marca"",""value"":""Apple""},{""name"":""Línea"",""value"":""iPhone""},{""name"":""Modelo"",""value"":""iPhone 15 Pro Max""},{""name"":""Color"",""value"":""Titanio Azul""}]"
+MLC473630929,category,Pantalla,,,,,,,,,Pantalla,"[{""name"":""Tamaño de pantalla"",""value"":""6.7\""""},{""name"":""Resolución"",""value"":""2796 x 1290 px""},{""name"":""Tipo de pantalla"",""value"":""Super Retina XDR""}]"
+MLC473630929,category,Sistema operativo,,,,,,,,,Sistema operativo,"[{""name"":""Nombre del sistema operativo"",""value"":""iOS 17""}]"
+MLC473630929,category,Memoria,,,,,,,,,Memoria,"[{""name"":""Memoria interna"",""value"":""512 GB""},{""name"":""Memoria RAM"",""value"":""8 GB""}]"
+MLC473630929,category,Cámara,,,,,,,,,Cámara,"[{""name"":""Cámara trasera"",""value"":""Triple 48 MP + 12 MP + 12 MP""},{""name"":""Cámara frontal"",""value"":""12 MP""}]"
+MLC473630929,category,Procesador,,,,,,,,,Procesador,"[{""name"":""Modelo del procesador"",""value"":""A17 Pro""},{""name"":""Cantidad de núcleos"",""value"":""6""}]"
+MLC473630929,category,Batería,,,,,,,,,Batería,"[{""name"":""Capacidad de batería"",""value"":""4422 mAh""}]"
+MLC473630929,category,Dimensiones y peso,,,,,,,,,Dimensiones y peso,"[{""name"":""Peso"",""value"":""221 g""},{""name"":""Alto"",""value"":""159.9 mm""},{""name"":""Ancho"",""value"":""76.7 mm""},{""name"":""Profundidad"",""value"":""8.25 mm""}]"
+MLC403211283,range,Tamaño de la pantalla,"6.7""",6.7,4,8,PEQUEÑO,GRANDE,Smartphone,,,
+MLC403211283,highlight,Memoria interna,512 GB,,,,,,HardDrive,,,
+MLC403211283,highlight,Cámara trasera principal,48 Mpx,,,,,,Camera,,,
+MLC403211283,category,Características generales,,,,,,,,,Características generales,"[{""name"":""Marca"",""value"":""Apple""},{""name"":""Línea"",""value"":""iPhone""},{""name"":""Modelo"",""value"":""iPhone 15 Pro Max""},{""name"":""Color"",""value"":""Titanio Natural""}]"
+MLC403211283,category,Pantalla,,,,,,,,,Pantalla,"[{""name"":""Tamaño de pantalla"",""value"":""6.7\""""},{""name"":""Resolución"",""value"":""2796 x 1290 px""},{""name"":""Tipo de pantalla"",""value"":""Super Retina XDR""}]"
+MLC403211283,category,Sistema operativo,,,,,,,,,Sistema operativo,"[{""name"":""Nombre del sistema operativo"",""value"":""iOS 17""}]"
+MLC403211283,category,Memoria,,,,,,,,,Memoria,"[{""name"":""Memoria interna"",""value"":""512 GB""},{""name"":""Memoria RAM"",""value"":""8 GB""}]"
+MLC403211283,category,Cámara,,,,,,,,,Cámara,"[{""name"":""Cámara trasera"",""value"":""Triple 48 MP + 12 MP + 12 MP""},{""name"":""Cámara frontal"",""value"":""12 MP""}]"
+MLC403211283,category,Procesador,,,,,,,,,Procesador,"[{""name"":""Modelo del procesador"",""value"":""A17 Pro""},{""name"":""Cantidad de núcleos"",""value"":""6""}]"
+MLC403211283,category,Batería,,,,,,,,,Batería,"[{""name"":""Capacidad de batería"",""value"":""4422 mAh""}]"
+MLC403211283,category,Dimensiones y peso,,,,,,,,,Dimensiones y peso,"[{""name"":""Peso"",""value"":""221 g""},{""name"":""Alto"",""value"":""159.9 mm""},{""name"":""Ancho"",""value"":""76.7 mm""},{""name"":""Profundidad"",""value"":""8.25 mm""}]"
+MLC882941432,range,Tamaño de la pantalla,"6.7""",6.7,4,8,PEQUEÑO,GRANDE,Smartphone,,,
+MLC882941432,highlight,Memoria interna,512 GB,,,,,,HardDrive,,,
+MLC882941432,highlight,Cámara trasera principal,48 Mpx,,,,,,Camera,,,
+MLC882941432,category,Características generales,,,,,,,,,Características generales,"[{""name"":""Marca"",""value"":""Apple""},{""name"":""Línea"",""value"":""iPhone""},{""name"":""Modelo"",""value"":""iPhone 15 Pro Max""},{""name"":""Color"",""value"":""Titanio Negro""}]"
+MLC882941432,category,Pantalla,,,,,,,,,Pantalla,"[{""name"":""Tamaño de pantalla"",""value"":""6.7\""""},{""name"":""Resolución"",""value"":""2796 x 1290 px""},{""name"":""Tipo de pantalla"",""value"":""Super Retina XDR""}]"
+MLC882941432,category,Sistema operativo,,,,,,,,,Sistema operativo,"[{""name"":""Nombre del sistema operativo"",""value"":""iOS 17""}]"
+MLC882941432,category,Memoria,,,,,,,,,Memoria,"[{""name"":""Memoria interna"",""value"":""512 GB""},{""name"":""Memoria RAM"",""value"":""8 GB""}]"
+MLC882941432,category,Cámara,,,,,,,,,Cámara,"[{""name"":""Cámara trasera"",""value"":""Triple 48 MP + 12 MP + 12 MP""},{""name"":""Cámara frontal"",""value"":""12 MP""}]"
+MLC882941432,category,Procesador,,,,,,,,,Procesador,"[{""name"":""Modelo del procesador"",""value"":""A17 Pro""},{""name"":""Cantidad de núcleos"",""value"":""6""}]"
+MLC882941432,category,Batería,,,,,,,,,Batería,"[{""name"":""Capacidad de batería"",""value"":""4422 mAh""}]"
+MLC882941432,category,Dimensiones y peso,,,,,,,,,Dimensiones y peso,"[{""name"":""Peso"",""value"":""221 g""},{""name"":""Alto"",""value"":""159.9 mm""},{""name"":""Ancho"",""value"":""76.7 mm""},{""name"":""Profundidad"",""value"":""8.25 mm""}]"

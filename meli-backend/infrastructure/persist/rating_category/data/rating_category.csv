@@ -1,0 +1,5 @@
+id,name,order
+camera_quality,Calidad de la cámara,1
+value_for_money,Relación precio-calidad,2
+battery_life,Duración de la batería,3
+durability,Durabilidad,4

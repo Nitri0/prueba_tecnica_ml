@@ -1,0 +1,4 @@
+id,product_id,question,answer,asked_at,answered_at,status
+1,MLC123456789,¿Viene desbloqueado para cualquier compañía?,"Sí, el equipo viene liberado de fábrica y funciona con cualquier operador.",2026-02-04T00:00:00,2026-02-04T01:00:00,answered
+2,MLC123456789,¿Tiene garantía oficial de Apple?,"Sí, cuenta con 1 año de garantía oficial Apple Chile.",2026-02-01T00:00:00,2026-02-01T02:00:00,answered
+3,MLC123456789,¿Es nuevo o reacondicionado?,"Es completamente nuevo, sellado de fábrica.",2026-01-30T00:00:00,2026-01-30T00:30:00,answered
