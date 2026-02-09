@@ -195,8 +195,10 @@ make coverage-backend
 ### Frontend
 ```bash
 cd meli-frontend
-npm install
 npm run test
+
+# Con converage
+npm run test --converage
 ```
 
 ## 📝 Variables de Entorno
