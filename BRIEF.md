@@ -21,11 +21,10 @@ Resumen decisiones técnicas (backend):
 Desafíos Técnicos
 
 1. Renderizado de caracteristicas:
-Las Caracteristicas tienen distinta visualizaciones, lo que me da a entender que dependiendo del tipo de producto puede modificarse;
-cree molecules con visualizaciones específicas (range, highlights, category) y un orquestador (organism ProductChatacteristics) encargado de procesar las caracteristicas y renderizando el tipo específico. Permitiendo escalar las caracteristicas con un bajo impacto.
+Las Caracteristicas tienen distintos tipos de visualizaciones, lo que me da a entender que dependiendo del tipo de producto puede modificarse; por lo mismo, cree molecules con visualizaciones específicas (range, highlights, category) y un orquestador (organism ProductChatacteristics) encargado de procesar las caracteristicas y renderizando el tipo específico. Esto da la flexibilidad apara  escalar las caracteristicas con un bajo impacto tanto para el backend como para el frontend.
 
 2. Uso de Variantes:
-En este caso me apoye con la IA para generar una propuesta de variantes con precios y products id distinto. Me gustó la propuesta de generar un endpoint a partir de la variable y las variantes busque el id en el back y el front pueda redireccionar al detalle de ese producto. Me pareció practico y delego la responsabilidad al backend. Ademas, cada producto puede tener sus propias variantes, por lo que vi interesante generar variantes dinamicas. El modulo mapea los productos con sus variantes unicas; logrando encontrar el product_id a partir de las variantes (capacidad, color, tamaño, etc).
+En este caso me apoye con la IA para generar una propuesta de variantes con precios y products id distinto. Me gustó la propuesta de generar un endpoint a partir de las variantes busque el product_id en el back y luego el front pueda redireccionar al detalle de ese producto. Me pareció practico y delego la responsabilidad al backend, además cada producto puede tener sus propias variantes, por lo que vi interesante generar variantes dinamicas.
 
 3. Medios de Pago:
 Al igual que las caracteristicas los medios de pago son dinamicos dependiendo de la categoria, en este caso las categorias son efectivo, debito, credito. La diferencia radica en que dependiendo del tipo se renderiza en un espacio puntual (zona de medio de pago en el front).

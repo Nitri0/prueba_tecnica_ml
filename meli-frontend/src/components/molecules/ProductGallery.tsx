@@ -7,6 +7,7 @@ import {
   DialogTitle,
 } from '../atoms/ui/dialog';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
+import { getImageUrl } from '../../utils/imageUrl';
 
 interface ProductGalleryProps {
   images: string[];
@@ -47,7 +48,7 @@ export const ProductGallery: React.FC<ProductGalleryProps> = ({
               }`}
             >
               <img
-                src={image}
+                src={getImageUrl(image)}
                 alt={`${productName} - vista ${index + 1}`}
                 className="w-full h-full object-contain"
               />
@@ -58,7 +59,7 @@ export const ProductGallery: React.FC<ProductGalleryProps> = ({
         {/* Imagen principal */}
         <div className="flex-1">
           <ProductImage
-            src={images[selectedIndex]}
+            src={getImageUrl(images[selectedIndex])}
             alt={productName}
             onClick={() => setIsZoomOpen(true)}
             className="w-full h-[500px]"
@@ -76,7 +77,7 @@ export const ProductGallery: React.FC<ProductGalleryProps> = ({
         {/* Imagen principal */}
         <div className="relative">
           <ProductImage
-            src={images[selectedIndex]}
+            src={getImageUrl(images[selectedIndex])}
             alt={productName}
             onClick={() => setIsZoomOpen(true)}
             className="w-full h-[400px]"
@@ -136,7 +137,7 @@ export const ProductGallery: React.FC<ProductGalleryProps> = ({
             </button>
 
             <img
-              src={images[selectedIndex]}
+              src={getImageUrl(images[selectedIndex])}
               alt={productName}
               className="max-w-full max-h-full object-contain p-8"
             />

@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { ChevronDown } from 'lucide-react';
+import { getImageUrl } from '../../utils/imageUrl';
 
 interface ProductDescriptionProps {
   description: string;
@@ -39,7 +40,7 @@ export const ProductDescription: React.FC<ProductDescriptionProps> = ({
             {images.map((image, index) => (
               <div key={index} className="rounded-lg overflow-hidden border border-ml-gray-border">
                 <img
-                  src={image}
+                  src={getImageUrl(image)}
                   alt={`Descripción ${index + 1}`}
                   className="w-full h-auto object-contain"
                 />

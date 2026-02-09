@@ -6,6 +6,7 @@ import {
   DialogDescription,
   DialogTitle,
 } from '../atoms/ui/dialog';
+import { getImageUrl } from '../../utils/imageUrl';
 
 export interface PaymentMethod {
   id: string;
@@ -26,7 +27,7 @@ const PaymentLogo: React.FC<{ method: PaymentMethod; small?: boolean }> = ({ met
     <div className="flex flex-col items-center gap-1">
       <div className={`${small ? 'h-5' : 'h-8'} flex items-center justify-center bg-white`}>
         <img
-          src={method.imageUrl}
+          src={getImageUrl(method.imageUrl)}
           alt={method.name}
           className="max-h-full object-contain"
         />

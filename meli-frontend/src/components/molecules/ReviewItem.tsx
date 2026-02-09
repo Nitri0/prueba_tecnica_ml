@@ -2,6 +2,7 @@ import React from 'react';
 import { StarRating } from './StarRating';
 import type { CategoryRating } from './CategoryRatings';
 import type { RatingCategory, CategoryRatings as CategoryRatingsType } from '@/types/product';
+import { getImageUrl } from '../../utils/imageUrl';
 
 export interface Review {
   id: string;
@@ -85,7 +86,7 @@ export const ReviewItem: React.FC<ReviewItemProps> = ({
           {review.images.map((image, index) => (
             <img
               key={index}
-              src={image}
+              src={getImageUrl(image)}
               alt={`Foto ${index + 1} de la opinión`}
               className="w-20 h-20 object-cover rounded-lg border border-ml-gray-border cursor-pointer hover:opacity-80 transition-opacity"
             />

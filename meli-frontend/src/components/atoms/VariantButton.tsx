@@ -1,6 +1,7 @@
 import React from 'react';
 import { Check } from 'lucide-react';
 import { type Variant } from '../../types/product';
+import { getImageUrl } from '../../utils/imageUrl';
 
 export { type Variant };
 
@@ -39,7 +40,7 @@ export const VariantButton: React.FC<VariantButtonProps> = ({
         <div className="flex flex-col items-center gap-1">
           <div className={`w-12 h-12 rounded-md overflow-hidden border ${isSelected ? 'border-ml-blue' : 'border-ml-gray-border'}`}>
             <img
-              src={variant.image}
+              src={getImageUrl(variant.image)}
               alt={variant.label}
               className="w-full h-full object-cover"
             />

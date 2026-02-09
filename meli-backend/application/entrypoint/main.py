@@ -1,5 +1,7 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
+from fastapi.staticfiles import StaticFiles
+import os
 
 from infrastructure.api.FastAPI.detail_product import router as product_router
 from infrastructure.api.FastAPI.variant_resolver import router as variant_router
@@ -32,6 +34,11 @@ def create_application() -> FastAPI:
     # Registrar routers
     app.include_router(product_router)
     app.include_router(variant_router)
+
+    # Configurar archivos estáticos
+    static_dir = os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(__file__))), "static")
+    if os.path.exists(static_dir):
+        app.mount("/static", StaticFiles(directory=static_dir), name="static")
 
     # Health check endpoint
     @app.get("/health", tags=["health"])

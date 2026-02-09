@@ -1,5 +1,6 @@
 import React from 'react';
 import { Star } from 'lucide-react';
+import { getImageUrl } from '../../utils/imageUrl';
 
 interface ReviewPhotoCardProps {
   imageUrl: string;
@@ -21,7 +22,7 @@ export const ReviewPhotoCard: React.FC<ReviewPhotoCardProps> = ({
     >
       {/* Imagen de fondo */}
       <img
-        src={imageUrl}
+        src={getImageUrl(imageUrl)}
         alt="Foto de opinión"
         className="w-full h-full object-cover"
       />

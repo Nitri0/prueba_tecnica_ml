@@ -1,6 +1,7 @@
 import React from 'react';
 import { Check, MessageSquare, Clock } from 'lucide-react';
 import SellerBadge from '../atoms/SellerBadge';
+import { getImageUrl } from '../../utils/imageUrl';
 
 interface SellerCardProps {
   name: string;
@@ -52,7 +53,7 @@ export const SellerCard: React.FC<SellerCardProps> = ({
           {logo && (
             <div className="w-16 h-16 rounded-full border border-ml-gray-border flex-shrink-0 overflow-hidden bg-white">
               <img
-                src={logo}
+                src={getImageUrl(logo)}
                 alt={`Logo de ${name}`}
                 className="w-full h-full object-contain p-1"
               />

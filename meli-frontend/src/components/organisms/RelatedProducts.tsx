@@ -1,6 +1,7 @@
 import React, { useCallback, useEffect, useState } from 'react';
 import useEmblaCarousel from 'embla-carousel-react';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
+import { getImageUrl } from '../../utils/imageUrl';
 
 export interface RelatedProduct {
   id: string;
@@ -126,7 +127,7 @@ export const RelatedProducts: React.FC<RelatedProductsProps> = ({
                   {/* Imagen del producto */}
                   <div className="relative bg-white aspect-square">
                     <img
-                      src={product.image}
+                      src={getImageUrl(product.image)}
                       alt={product.title}
                       className="object-contain w-full h-full p-4 md:p-6"
                     />

@@ -10,6 +10,7 @@ import { Button } from '@/components/atoms/Button';
 import { Badge } from '@/components/atoms/Badge';
 import { ShoppingCart, Heart } from 'lucide-react';
 import { formatCurrency } from '@/lib/utils';
+import { getImageUrl } from '@/utils/imageUrl';
 
 export interface ProductCardProps {
   id: string;
@@ -36,7 +37,7 @@ export function ProductCard({
     <Card className="group overflow-hidden transition-all hover:shadow-lg">
       <div className="relative aspect-square overflow-hidden bg-muted">
         <img
-          src={image}
+          src={getImageUrl(image)}
           alt={title}
           className="h-full w-full object-cover transition-transform group-hover:scale-105"
         />
