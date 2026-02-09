@@ -1,3 +1,23 @@
+Resumen decisiones técnicas (frontend):
+
+* Uso de atomic design para reutilización de componentes
+* Diseño responsive
+* Creación de Servicio Mock para simular API
+* Implementación de servicio para conectar con backend
+* Creación de contrato de comunicación con backend
+* Creacion test unitarios
+
+Resumen decisiones técnicas (backend):
+
+* Uso de DDD para el modelado de negocio.
+* Definición de interfaces repositorios
+* Implementación de repositorio en csv
+* Separacion de bounded context por lo que considero que podría escalar en tamaño, por ejemplo: las categorias pueden crecer dependiendo del tipo de producto; al shipping se le puede agregar el checkout; etc.
+* Creación de servicios por bounded context.
+* Definición de endpoint con FastApi
+* Implementación de contrato de comunicación con frontend
+* Creacion test unitarios
+
 Desafíos Técnicos
 
 1. Renderizado de caracteristicas:
@@ -13,27 +33,17 @@ Al igual que las caracteristicas los medios de pago son dinamicos dependiendo de
 4. Productos relacionados:
 Diseñé la lista de productos relacionados enlazados a un product_id. Ésto se puede mejorar creando un servicio que filtre productos por slugs/ keys/ categorias y agregar una capa de cache.
 
-Resumen decisiones técnicas (frontend):
-
-* Uso de atomic design para reutilización de componentes
-* Diseño responsive
-* Creación de Servicio Mock para simular API
-* Implementación de servicio
-
-Resumen decisiones técnicas (backend):
-
-* Uso de DDD para el modelado de negocio.
-* Separacion de bounded context por lo que considero que podría escalar en tamaño, por ejemplo: las categorias pueden crecer dependiendo del tipo de producto; al shipping se le puede agregar el checkout; etc.
-* Uso de Injección para hacer el codigo testeable y escalable.
-
 Siguientes Pasos que tenia en mente hacer (Backend):
+
 1. Implementación de cache para cada servicio.
 2. Implementar feature de busqueda de producto
 3. Desarrollo de test End2End
 4. Reemplazar implementaciones de repositorios csv a implementación de los repositorios que usen una base de datos.
 
-Siguientes pasos (Frontend);
+Siguientes pasos (Frontend):
+
 1. Agregar efecto lupa en galería
 2. Mejorar el diseño del navbar
 3. Darle funcionalidad a las preguntas & respuestas
 4. Proceso de Checkout
+5. Mejorar maquetación
