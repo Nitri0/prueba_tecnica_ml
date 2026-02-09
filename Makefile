@@ -16,7 +16,7 @@ help: ## Muestra este mensaje de ayuda
 
 up: ## Levanta los servicios
 	@echo "${GREEN}Levantando servicios...${RESET}"
-	docker-compose up -d
+	docker compose up -d
 	@echo "${GREEN}✓ Servicios corriendo${RESET}"
 	@echo "${YELLOW}Frontend: http://localhost:3000${RESET}"
 	@echo "${YELLOW}Backend:  http://localhost:8001${RESET}"
@@ -24,33 +24,33 @@ up: ## Levanta los servicios
 
 build: ## Construye las imágenes
 	@echo "${GREEN}Construyendo imágenes...${RESET}"
-	docker-compose build
+	docker compose build
 
 rebuild: ## Reconstruye y levanta los servicios
 	@echo "${GREEN}Reconstruyendo servicios...${RESET}"
-	docker-compose up --build -d
+	docker compose up --build -d
 	@echo "${GREEN}✓ Servicios reconstruidos y corriendo${RESET}"
 
 down: ## Detiene los servicios
 	@echo "${YELLOW}Deteniendo servicios...${RESET}"
-	docker-compose down
+	docker compose down
 	@echo "${GREEN}✓ Servicios detenidos${RESET}"
 
 logs: ## Muestra logs en tiempo real
-	docker-compose logs -f
+	docker compose logs -f
 
 logs-backend: ## Muestra logs del backend
-	docker-compose logs -f backend
+	docker compose logs -f backend
 
 logs-frontend: ## Muestra logs del frontend
-	docker-compose logs -f frontend
+	docker compose logs -f frontend
 
 ps: ## Muestra el estado de los contenedores
-	docker-compose ps
+	docker compose ps
 
 clean: ## Limpia contenedores, imágenes y volúmenes
 	@echo "${YELLOW}Limpiando todo...${RESET}"
-	docker-compose down -v --rmi all
+	docker compose down -v --rmi all
 	@echo "${GREEN}✓ Limpieza completa${RESET}"
 
 restart: down up ## Reinicia los servicios
