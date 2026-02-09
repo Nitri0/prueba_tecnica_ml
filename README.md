@@ -10,11 +10,11 @@ La forma más sencilla de ejecutar la aplicación completa es usando Docker Comp
 
 ```bash
 # Desde la raíz del proyecto
-docker-compose up --build
+docker compose up --build 
 ```
 
 Luego abre tu navegador en:
-- **Frontend**: http://localhost:3000
+- **Frontend**: http://localhost:3000/producto/MLC137702355
 - **Backend API**: http://localhost:8001/docs
 
 ### Opción 2: Makefile (Más fácil)
@@ -36,14 +36,8 @@ make down
 ### Detener los servicios
 
 ```bash
-docker-compose down
+docker compose down
 ```
-
-## 📚 Documentación Completa
-
-- **[DOCKER_README.md](DOCKER_README.md)** - Guía completa de Docker
-- **[meli-backend/README.md](meli-backend/README.md)** - Documentación del backend
-- **[meli-frontend/README.md](meli-frontend/README.md)** - Documentación del frontend
 
 ## 🏗️ Arquitectura
 
@@ -60,7 +54,7 @@ docker-compose down
 ┌────────────▼────────────────────────┐
 │       Backend (FastAPI)              │
 │         Port: 8001                   │
-│  - Clean Architecture                │
+│  - Domain Driven Design              │
 │  - Repository Pattern (CSV)          │
 │  - Dependency Injection              │
 └─────────────────────────────────────┘
@@ -79,32 +73,14 @@ docker-compose down
 ### Backend
 - Python 3.9
 - FastAPI
-- Clean Architecture / Hexagonal
+- Clean Architecture / DDD
 - CSV para persistencia
 - Pytest (90% coverage)
-
-## 📦 Servicios
-
-### Backend
-- **URL**: http://localhost:8001
-- **Docs**: http://localhost:8001/docs
-- **Health**: http://localhost:8001/health
-
-### Frontend
-- **URL**: http://localhost:3000
-- **Health**: http://localhost:3000/health
 
 ## 🧪 Testing
 
 ### Backend
 ```bash
-# Con Docker
-docker exec -it meli-backend pytest tests/
-
-# Con coverage
-docker exec -it meli-backend pytest tests/ --cov=application --cov=domain --cov=infrastructure
-
-# O con make
 make test-backend
 make coverage-backend
 ```
@@ -120,7 +96,7 @@ npm run test:coverage
 ## 📊 Coverage Actual
 
 - **Backend**: 90% ✅
-- **Frontend**: [Pendiente configuración]
+- **Frontend**: 80% ✅
 
 ## 🗂️ Estructura del Proyecto
 
@@ -128,7 +104,8 @@ npm run test:coverage
 meli-test/
 ├── docker-compose.yml          # Orquestación de servicios
 ├── Makefile                    # Comandos rápidos
-├── DOCKER_README.md            # Documentación Docker completa
+├── BRIEF.md                    # Documentación y analisis de problemas
+├── CLAUDE.md                   # Especificación para ClaudeCli
 │
 ├── meli-backend/               # Backend (FastAPI)
 │   ├── Dockerfile
@@ -163,9 +140,10 @@ meli-test/
 - ✅ Routing con React Router
 - ✅ Componentes reutilizables
 - ✅ Testing con Vitest
+- ✅ 80% test coverage
 
 ### Backend
-- ✅ Clean Architecture
+- ✅ DDD
 - ✅ Repository Pattern
 - ✅ Dependency Injection
 - ✅ 90% test coverage
@@ -191,6 +169,36 @@ npm install
 npm run dev
 ```
 
+## Test
+
+### Backend
+
+```bash
+# Sin Docker
+cd meli-backend
+python -m venv .venv
+source .venv/bin/activate  # En Windows: .venv\Scripts\activate
+pytest
+```
+
+```bash
+# Con docker
+docker compose up --build -d
+
+make test-backend  
+
+# Con converage
+make coverage-backend
+```
+
+
+### Frontend
+```bash
+cd meli-frontend
+npm install
+npm run test
+```
+
 ## 📝 Variables de Entorno
 
 ### Frontend
@@ -202,22 +210,6 @@ VITE_API_URL=http://localhost:8001
 ### Backend
 No requiere variables de entorno por defecto.
 
-## 🤝 Contribución
-
-1. Fork del proyecto
-2. Crear rama feature (`git checkout -b feature/AmazingFeature`)
-3. Commit cambios (`git commit -m 'Add some AmazingFeature'`)
-4. Push a la rama (`git push origin feature/AmazingFeature`)
-5. Abrir Pull Request
-
 ## 📄 Licencia
 
 Este proyecto es parte de un desafío técnico.
-
-## 👨‍💻 Autor
-
-Desarrollado como parte del desafío técnico de Mercado Libre.
-
----
-
-**¿Necesitas ayuda?** Revisa [DOCKER_README.md](DOCKER_README.md) para troubleshooting.

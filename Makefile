@@ -57,11 +57,11 @@ restart: down up ## Reinicia los servicios
 
 test-backend: ## Ejecuta tests del backend
 	@echo "${GREEN}Ejecutando tests del backend...${RESET}"
-	docker exec -it meli-backend pytest tests/ -v
+	docker exec meli-backend pytest tests/ -v
 
 coverage-backend: ## Ejecuta coverage del backend
 	@echo "${GREEN}Ejecutando coverage del backend...${RESET}"
-	docker exec -it meli-backend pytest tests/ --cov=application --cov=domain --cov=infrastructure --cov-report=term-missing
+	docker exec meli-backend pytest tests/ --cov=application --cov=domain --cov=infrastructure --cov-report=term-missing
 
 shell-backend: ## Abre shell en el contenedor del backend
 	docker exec -it meli-backend sh
