@@ -1,13 +1,25 @@
 {
-  "id": "MLC123456789",
-  "title": "iPhone 15 Pro Max 256GB Titanio Natural",
-  "price": 1299990,
-  "originalPrice": 1499990,
-  "discount": 13,
-  "condition": "new",
-  "soldCount": 1247,
-  "availableStock": 15,
-  "productRating": 4.8,
+  "basics": {
+    "id": "MLC123456789",
+    "title": "iPhone 15 Pro Max 256GB Titanio Natural",
+    "price": 1299990,
+    "originalPrice": 1499990,
+    "discount": 13,
+    "condition": "new",
+    "soldCount": 1247,
+    "availableStock": 15,
+    "description": "El iPhone 15 Pro Max redefine lo que significa tener el smartphone más avanzado del mundo. Con su diseño de titanio aeroespacial, es el iPhone más ligero de la línea Pro que hemos creado.\n\nCHIP A17 PRO\nSúper potente y súper eficiente. El chip A17 Pro lleva el rendimiento y la eficiencia energética a un nivel completamente nuevo. Acelera tareas intensivas como los juegos más exigentes con gráficos de consola.\n\nSISTEMA DE CÁMARAS PRO\nMás zoom. Más creatividad. Captura fotos espectaculares con todo detalle gracias a la cámara principal de 48 MP. Y con el teleobjetivo de 120 mm, puedes acercarte hasta 5x al sujeto. Es perfecto para capturar primeros planos impresionantes.\n\nPANTALLA SUPER RETINA XDR\nUna pantalla tan brillante como ninguna. La pantalla Super Retina XDR con ProMotion lleva la experiencia visual a un nivel superior. Y ahora brilla hasta dos veces más que antes bajo el sol.\n\nDISEÑO DE TITANIO\nEl titanio es uno de los metales con mejor relación resistencia-peso. Por eso el iPhone 15 Pro Max cuenta con un diseño súper resistente y es el iPhone Pro más liviano que hemos creado.\n\nIncluye:\n• iPhone 15 Pro Max\n• Cable de carga USB-C\n• Documentación"
+  },
+  "media": {
+    "images": [
+      "https://http2.mlstatic.com/D_NQ_NP_2X_863735-MLA71782896219_092023-F.webp",
+      "https://http2.mlstatic.com/D_NQ_NP_2X_693037-MLA71782896221_092023-F.webp",
+      "https://http2.mlstatic.com/D_NQ_NP_2X_686692-MLA71782896223_092023-F.webp",
+      "https://http2.mlstatic.com/D_NQ_NP_2X_740308-MLA71782896225_092023-F.webp"
+    ],
+    "descriptionImages": []
+  },
+  "averageRating": 4.8,
   "reviewCount": 769,
   "categoryPath": [
     {
@@ -22,12 +34,6 @@
       "label": "iPhone",
       "href": "/categoria/electronica/celulares/iphone"
     }
-  ],
-  "images": [
-    "https://http2.mlstatic.com/D_NQ_NP_2X_863735-MLA71782896219_092023-F.webp",
-    "https://http2.mlstatic.com/D_NQ_NP_2X_693037-MLA71782896221_092023-F.webp",
-    "https://http2.mlstatic.com/D_NQ_NP_2X_686692-MLA71782896223_092023-F.webp",
-    "https://http2.mlstatic.com/D_NQ_NP_2X_740308-MLA71782896225_092023-F.webp"
   ],
   "seller": {
     "name": "digitekcl",
@@ -207,8 +213,6 @@
       ]
     }
   ],
-  "description": "El iPhone 15 Pro Max redefine lo que significa tener el smartphone más avanzado del mundo. Con su diseño de titanio aeroespacial, es el iPhone más ligero de la línea Pro que hemos creado.\n\nCHIP A17 PRO\nSúper potente y súper eficiente. El chip A17 Pro lleva el rendimiento y la eficiencia energética a un nivel completamente nuevo. Acelera tareas intensivas como los juegos más exigentes con gráficos de consola.\n\nSISTEMA DE CÁMARAS PRO\nMás zoom. Más creatividad. Captura fotos espectaculares con todo detalle gracias a la cámara principal de 48 MP. Y con el teleobjetivo de 120 mm, puedes acercarte hasta 5x al sujeto. Es perfecto para capturar primeros planos impresionantes.\n\nPANTALLA SUPER RETINA XDR\nUna pantalla tan brillante como ninguna. La pantalla Super Retina XDR con ProMotion lleva la experiencia visual a un nivel superior. Y ahora brilla hasta dos veces más que antes bajo el sol.\n\nDISEÑO DE TITANIO\nEl titanio es uno de los metales con mejor relación resistencia-peso. Por eso el iPhone 15 Pro Max cuenta con un diseño súper resistente y es el iPhone Pro más liviano que hemos creado.\n\nIncluye:\n• iPhone 15 Pro Max\n• Cable de carga USB-C\n• Documentación",
-  "descriptionImages": [],
   "questions": [
     {
       "id": "1",
@@ -486,7 +490,6 @@
       }
     }
   ],
-  "averageRating": 4.8,
   "totalReviews": 769,
   "ratingDistribution": {
     "5": 650,

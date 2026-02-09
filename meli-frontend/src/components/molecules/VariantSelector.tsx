@@ -1,8 +1,10 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { useNavigate, useLocation } from 'react-router-dom';
 import VariantButton, { type Variant } from '../atoms/VariantButton';
 import { type ProductVariants } from '../../types/product';
-import { buildProductUrl, getCurrentVariantSlugs } from '../../utils/variantUrl';
+import { getCurrentVariantSlugs } from '../../utils/variantUrl';
+import { getVariantIdFromMapping } from '../../utils/variantIdMapping';
+import { getProductService } from '../../services/ProductServiceFactory';
 
 interface VariantSelectorProps {
   title: string;
@@ -30,9 +32,10 @@ export const VariantSelector: React.FC<VariantSelectorProps> = ({
   const navigate = useNavigate();
   const location = useLocation();
   const selectedVariant = variants.find(v => v.id === selectedId);
+  const [isResolving, setIsResolving] = useState(false);
 
-  const handleVariantClick = (variant: Variant) => {
-    if (variant.available === false) return;
+  const handleVariantClick = async (variant: Variant) => {
+    if (variant.available === false || isResolving) return;
 
     // Obtener los slugs actuales de todas las variantes
     const currentSlugs = getCurrentVariantSlugs(location.pathname, allVariants);
@@ -43,15 +46,37 @@ export const VariantSelector: React.FC<VariantSelectorProps> = ({
       [variantKey]: variant.slug,
     };
 
-    // Construir la nueva URL con todas las variantes
-    const newUrl = buildProductUrl(productId, newSlugs, allVariants);
+    // Extraer base product ID (sin slugs)
+    const baseProductId = productId.split('-')[0];
 
-    // Navegar a la nueva URL
-    navigate(newUrl);
+    try {
+      setIsResolving(true);
 
-    // Llamar al callback si existe
-    if (onSelect) {
-      onSelect(variant.id);
+      // Intentar primero desde el mapping local (más rápido)
+      let resolvedProductId = getVariantIdFromMapping(newSlugs);
+
+      // Si no está en el mapping local, consultar al backend
+      if (!resolvedProductId) {
+        const productService = getProductService();
+        resolvedProductId = await productService.resolveVariantProductId(
+          baseProductId,
+          newSlugs
+        );
+      }
+
+      // Navegar directamente al ID independiente
+      navigate(`/producto/${resolvedProductId}`);
+
+      // Llamar al callback si existe
+      if (onSelect) {
+        onSelect(variant.id);
+      }
+    } catch (error) {
+      console.error('Error al resolver variante:', error);
+      // Fallback: navegar al base product ID si falla
+      navigate(`/producto/${baseProductId}`);
+    } finally {
+      setIsResolving(false);
     }
   };
 

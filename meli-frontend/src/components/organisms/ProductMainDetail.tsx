@@ -13,7 +13,7 @@ interface ProductMainDetailProps {
   productId: string;  // Nuevo: ID del producto para construcción de URLs
   title: string;
   images: string[];
-  productRating: number;
+  averageRating: number;
   reviewCount: number;
   price: number;
   originalPrice?: number;
@@ -41,7 +41,7 @@ export const ProductMainDetail: React.FC<ProductMainDetailProps> = ({
   productId,
   title,
   images,
-  productRating,
+  averageRating,
   reviewCount,
   price,
   originalPrice,
@@ -81,7 +81,7 @@ export const ProductMainDetail: React.FC<ProductMainDetailProps> = ({
             )}
           </div>
           <ProductRating
-            rating={productRating}
+            rating={averageRating}
             reviewCount={reviewCount}
             compact
           />
@@ -176,7 +176,7 @@ export const ProductMainDetail: React.FC<ProductMainDetailProps> = ({
 
           {/* Rating */}
           <ProductRating
-            rating={productRating}
+            rating={averageRating}
             reviewCount={reviewCount}
             className="mb-4"
           />

@@ -1,0 +1,223 @@
+# 🛒 Meli Test - Aplicación Fullstack
+
+Aplicación tipo Mercado Libre desarrollada con React + TypeScript (frontend) y FastAPI + Python (backend).
+
+## 🚀 Inicio Rápido con Docker
+
+La forma más sencilla de ejecutar la aplicación completa es usando Docker Compose:
+
+### Opción 1: Docker Compose (Recomendado)
+
+```bash
+# Desde la raíz del proyecto
+docker-compose up --build
+```
+
+Luego abre tu navegador en:
+- **Frontend**: http://localhost:3000
+- **Backend API**: http://localhost:8001/docs
+
+### Opción 2: Makefile (Más fácil)
+
+```bash
+# Ver comandos disponibles
+make help
+
+# Levantar servicios
+make rebuild
+
+# Ver logs
+make logs
+
+# Detener servicios
+make down
+```
+
+### Detener los servicios
+
+```bash
+docker-compose down
+```
+
+## 📚 Documentación Completa
+
+- **[DOCKER_README.md](DOCKER_README.md)** - Guía completa de Docker
+- **[meli-backend/README.md](meli-backend/README.md)** - Documentación del backend
+- **[meli-frontend/README.md](meli-frontend/README.md)** - Documentación del frontend
+
+## 🏗️ Arquitectura
+
+```
+┌─────────────────────────────────────┐
+│         Frontend (React)             │
+│    Port: 3000 (Nginx + Vite)        │
+│  - Atomic Design                     │
+│  - TypeScript                        │
+│  - Tailwind CSS                      │
+└────────────┬────────────────────────┘
+             │ HTTP/JSON
+             │
+┌────────────▼────────────────────────┐
+│       Backend (FastAPI)              │
+│         Port: 8001                   │
+│  - Clean Architecture                │
+│  - Repository Pattern (CSV)          │
+│  - Dependency Injection              │
+└─────────────────────────────────────┘
+```
+
+## 🛠️ Stack Tecnológico
+
+### Frontend
+- React 18 + TypeScript
+- Vite (build tool)
+- Tailwind CSS
+- React Router v7
+- Radix UI components
+- Vitest + Testing Library
+
+### Backend
+- Python 3.9
+- FastAPI
+- Clean Architecture / Hexagonal
+- CSV para persistencia
+- Pytest (90% coverage)
+
+## 📦 Servicios
+
+### Backend
+- **URL**: http://localhost:8001
+- **Docs**: http://localhost:8001/docs
+- **Health**: http://localhost:8001/health
+
+### Frontend
+- **URL**: http://localhost:3000
+- **Health**: http://localhost:3000/health
+
+## 🧪 Testing
+
+### Backend
+```bash
+# Con Docker
+docker exec -it meli-backend pytest tests/
+
+# Con coverage
+docker exec -it meli-backend pytest tests/ --cov=application --cov=domain --cov=infrastructure
+
+# O con make
+make test-backend
+make coverage-backend
+```
+
+### Frontend
+```bash
+# Local (requiere npm install)
+cd meli-frontend
+npm test
+npm run test:coverage
+```
+
+## 📊 Coverage Actual
+
+- **Backend**: 90% ✅
+- **Frontend**: [Pendiente configuración]
+
+## 🗂️ Estructura del Proyecto
+
+```
+meli-test/
+├── docker-compose.yml          # Orquestación de servicios
+├── Makefile                    # Comandos rápidos
+├── DOCKER_README.md            # Documentación Docker completa
+│
+├── meli-backend/               # Backend (FastAPI)
+│   ├── Dockerfile
+│   ├── application/            # Capa de aplicación
+│   ├── domain/                 # Capa de dominio
+│   ├── infrastructure/         # Capa de infraestructura
+│   │   └── persist/            # Repositorios CSV
+│   └── tests/                  # Tests (155 tests, 90% coverage)
+│
+└── meli-frontend/              # Frontend (React)
+    ├── Dockerfile
+    ├── nginx.conf
+    ├── src/
+    │   ├── components/         # Atomic Design
+    │   │   ├── atoms/
+    │   │   ├── molecules/
+    │   │   ├── organisms/
+    │   │   └── templates/
+    │   ├── pages/
+    │   ├── services/
+    │   ├── hooks/
+    │   └── types/
+    └── tests/
+```
+
+## 🎯 Características
+
+### Frontend
+- ✅ Diseño responsive
+- ✅ Atomic Design
+- ✅ TypeScript strict mode
+- ✅ Routing con React Router
+- ✅ Componentes reutilizables
+- ✅ Testing con Vitest
+
+### Backend
+- ✅ Clean Architecture
+- ✅ Repository Pattern
+- ✅ Dependency Injection
+- ✅ 90% test coverage
+- ✅ OpenAPI/Swagger docs
+- ✅ Persistencia en CSV
+- ✅ CORS habilitado
+
+## 🔧 Desarrollo Local (sin Docker)
+
+### Backend
+```bash
+cd meli-backend
+python -m venv .venv
+source .venv/bin/activate  # En Windows: .venv\Scripts\activate
+pip install -r requirements.txt
+python application/entrypoint/main.py
+```
+
+### Frontend
+```bash
+cd meli-frontend
+npm install
+npm run dev
+```
+
+## 📝 Variables de Entorno
+
+### Frontend
+```env
+VITE_PRODUCT_SERVICE=api        # 'mock' o 'api'
+VITE_API_URL=http://localhost:8001
+```
+
+### Backend
+No requiere variables de entorno por defecto.
+
+## 🤝 Contribución
+
+1. Fork del proyecto
+2. Crear rama feature (`git checkout -b feature/AmazingFeature`)
+3. Commit cambios (`git commit -m 'Add some AmazingFeature'`)
+4. Push a la rama (`git push origin feature/AmazingFeature`)
+5. Abrir Pull Request
+
+## 📄 Licencia
+
+Este proyecto es parte de un desafío técnico.
+
+## 👨‍💻 Autor
+
+Desarrollado como parte del desafío técnico de Mercado Libre.
+
+---
+
+**¿Necesitas ayuda?** Revisa [DOCKER_README.md](DOCKER_README.md) para troubleshooting.

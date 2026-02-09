@@ -4,7 +4,9 @@ import * as LucideIcons from 'lucide-react';
 interface CharacteristicRangeProps {
   name: string;
   value: string | number;
-  current: number;      // 0-100
+  current: number;      // Valor actual en el rango (ej: 6.7)
+  min: number;          // Valor mínimo (ej: 4)
+  max: number;          // Valor máximo (ej: 8)
   minLabel: string;
   maxLabel: string;
   icon?: string;
@@ -16,6 +18,8 @@ export const CharacteristicRange: React.FC<CharacteristicRangeProps> = ({
   name,
   value,
   current,
+  min,
+  max,
   minLabel,
   maxLabel,
   icon,
@@ -25,8 +29,11 @@ export const CharacteristicRange: React.FC<CharacteristicRangeProps> = ({
   // Obtener el ícono dinámicamente
   const IconComponent = icon ? (LucideIcons as any)[icon] : null;
 
-  // Calcular qué segmento está activo basado en la posición actual
-  const activeSegment = Math.min(Math.floor((current / 100) * segments), segments - 1);
+  // Calcular el porcentaje basado en el valor actual y el rango
+  const percentage = max > min ? ((current - min) / (max - min)) * 100 : 0;
+
+  // Calcular qué segmento está activo basado en el porcentaje
+  const activeSegment = Math.min(Math.floor((percentage / 100) * segments), segments - 1);
 
   return (
     <div className={`grid grid-cols-1 lg:grid-cols-2 gap-4 mb-6 lg:pr-10 ${className}`}>

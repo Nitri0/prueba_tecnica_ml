@@ -34,10 +34,10 @@ export class ProductServiceFactory {
       this.instance = this.createService(config);
     }
 
-    // Si no hay configuración ni instancia, usar mock por defecto
+    // Si no hay configuración ni instancia, usar API por defecto
     if (!this.instance) {
-      this.currentConfig = { type: 'mock' };
-      this.instance = new MockProductService();
+      this.currentConfig = { type: 'api' };
+      this.instance = new ApiProductService();
     }
 
     return this.instance;
@@ -92,8 +92,8 @@ export class ProductServiceFactory {
  * Helper function para obtener el servicio con configuración desde variables de entorno
  */
 export function getProductService(): IProductService {
-  const serviceType = (import.meta.env.VITE_PRODUCT_SERVICE || 'mock') as ServiceType;
-  const apiUrl = import.meta.env.VITE_API_URL;
+  const serviceType = (import.meta.env.VITE_PRODUCT_SERVICE || 'api') as ServiceType;
+  const apiUrl = import.meta.env.VITE_API_URL || 'http://localhost:8001';
 
   return ProductServiceFactory.getInstance({
     type: serviceType,

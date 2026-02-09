@@ -1,8 +1,20 @@
-import { describe, it, expect, vi, beforeAll } from 'vitest';
+import { describe, it, expect, vi, beforeAll, beforeEach } from 'vitest';
 import { render, screen } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
-import { BrowserRouter } from 'react-router-dom';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { ProductDetailPage } from '../ProductDetailPage';
+import mockProductData from '../../data/mockProduct.json';
+import type { ProductDetail } from '../../types/product';
+
+// Mock del hook useProduct
+vi.mock('../../hooks/useProduct', () => ({
+  useProduct: vi.fn(() => ({
+    product: mockProductData as ProductDetail,
+    loading: false,
+    error: null,
+    refetch: vi.fn(),
+  })),
+}));
 
 // Mocks necesarios para embla-carousel
 beforeAll(() => {
@@ -42,7 +54,13 @@ beforeAll(() => {
 });
 
 const renderWithRouter = (component: React.ReactElement) => {
-  return render(<BrowserRouter>{component}</BrowserRouter>);
+  return render(
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={component} />
+      </Routes>
+    </BrowserRouter>
+  );
 };
 
 describe('ProductDetailPage', () => {

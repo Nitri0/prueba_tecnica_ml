@@ -48,7 +48,7 @@ const defaultProps = {
     'https://example.com/image1.jpg',
     'https://example.com/image2.jpg',
   ],
-  productRating: 4.5,
+  averageRating: 4.5,
   reviewCount: 1234,
   price: 599990,
   originalPrice: 799990,

@@ -209,10 +209,17 @@ export interface RatingDistribution {
 }
 
 /**
- * Tipo completo para el detalle de producto (Mercado Libre)
- * Incluye toda la información necesaria para la página de detalle
+ * Información de media del producto (imágenes)
  */
-export interface ProductDetail {
+export interface ProductMedia {
+  images: string[];
+  descriptionImages: string[];
+}
+
+/**
+ * Información básica del producto
+ */
+export interface ProductBasics {
   id: string;
   title: string;
   price: number;
@@ -221,15 +228,22 @@ export interface ProductDetail {
   condition: 'new' | 'used' | 'refurbished';
   soldCount: number;
   availableStock: number;
-  productRating: number;
+  description: string;
+}
+
+/**
+ * Tipo completo para el detalle de producto (Mercado Libre)
+ * Incluye toda la información necesaria para la página de detalle
+ */
+export interface ProductDetail {
+  basics: ProductBasics;
+  media: ProductMedia;
+  averageRating: number;
   reviewCount: number;
   categoryPath: CategoryPathItem[];
-  images: string[];
   seller: Seller;
   shipping: Shipping;
   characteristics: ProductCharacteristic[];
-  description: string;
-  descriptionImages: string[];
   questions: Question[];
   relatedProducts: RelatedProduct[];
   variants: ProductVariants;
@@ -238,7 +252,6 @@ export interface ProductDetail {
   maxInstallments: number;
   availableRatingCategories: RatingCategory[];
   reviews: Review[];
-  averageRating: number;
   totalReviews: number;
   ratingDistribution: RatingDistribution;
   averageCategoryRatings: CategoryRatings;
